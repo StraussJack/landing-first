@@ -28,4 +28,13 @@
 .nav {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    /* text-decoration: none; */
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* text-decoration: none; */
 }
