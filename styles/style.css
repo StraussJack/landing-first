@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    background: url(/landing-first/img/photo_2023-06-11_16-15-12.jpg)
+    justify-content: center;
+    align-items: center;
+}
+
 .wrapper {
     display: flex;
     flex-direction: row;
@@ -11,30 +18,45 @@
     align-items: center;
     border: 2px solid black;
 }
+
 .container {
-    width: auto;
-    height: auto;
+    min-width: 50%;
+    min-height: 50%;
     border: 2px solid blue;
     display: flex;
     flex-direction: column;
 }
 
-.header{
+.header {
     display: flex;
-    justify-content: space-between;
     height: auto;
+    justify-content: space-between;
+    background-color: aliceblue;
+    /* height: auto; */
 }
 
 .nav {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 .nav__list {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    /* text-decoration: none; */
+    text-decoration: none;
+}
+
+.nav__item {
+    text-decoration: none;
+}
+
+main {
+    background-color: beige;
+    margin: 15px;
+    text-align: center;
+}
+
+.footer {
+    background-color: cornsilk;
 }
